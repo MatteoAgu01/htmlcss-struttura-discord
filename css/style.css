@@ -1,0 +1,60 @@
+*{
+     box-sizing: border-box;
+     margin: 4px auto;
+     padding: 0;
+     border: 1px solid black;
+}
+
+
+:root{
+     --nav-bg: #255ee9;
+     --head-text: white;
+     --button-ds-bg: #23272a;
+     --mac-down-bg:#7289da;
+     --foot-bg: #23272a;
+     --h-footer:#7289da;
+     --item-bg:#f6f6f6;
+}
+
+.d-flex{
+     display: flex;
+     flex-flow: row nowrap;
+     flex-grow: 2;
+}
+nav{
+     background-color: var(--nav-bg);
+}
+
+
+
+header{
+     background-image: url(../img/jumbo.png);
+     background-size: contain  no-repeat;
+     scale:calc(100% / 1);
+     text-align: center;
+}
+
+body{
+     max-width: 1400px;
+}
+
+main{
+     width: 75%;
+}
+
+header> section{
+     padding: 5%;
+     width: 75%;
+}
+
+main> div> picture> img{
+     width: 500px;
+}
+
+.container-revers{
+     flex-direction: row-reverse;
+}
+
+diV> section{ 
+     padding: 4%;
+}
