@@ -1,60 +1,117 @@
-*{
+* {
      box-sizing: border-box;
-     margin: 4px auto;
+     margin: 0 auto ;
      padding: 0;
-     border: 1px solid black;
+     border: px solid black;
+     font-family: 'Roboto', sans-serif;
 }
 
 
-:root{
+:root {
      --nav-bg: #255ee9;
      --head-text: white;
      --button-ds-bg: #23272a;
-     --mac-down-bg:#7289da;
+     --mac-down-bg: #7289da;
      --foot-bg: #23272a;
-     --h-footer:#7289da;
-     --item-bg:#f6f6f6;
+     --h-footer: #7289da;
+     --item-bg: #f6f6f6;
 }
 
-.d-flex{
+.d-flex {
      display: flex;
      flex-flow: row nowrap;
      flex-grow: 2;
 }
-nav{
+
+nav {
      background-color: var(--nav-bg);
+     padding: 2%;
 }
 
+h1{
+     color: var(--head-text);
+     font-size: 2.5rem;
+     margin: 2%;
+     padding: 2%;
+}
+header> section> p{
+     color: var(--head-text);
+     width: 70%;
+}
 
+a{
+     color: white;
+     text-decoration: none;
+     padding: 12px;
+}
 
-header{
+.link-header{
+     margin: 30px;
+}
+
+.download,.open{
+     border-radius: 25px;
+     padding: 12px ;
+}
+
+.download{
+     background-color: var(--head-text);
+     color: black;
+}
+
+.open{
+     background-color: var(--button-ds-bg);
+}
+
+i{
+     padding: 4px;
+}
+
+header {
      background-image: url(../img/jumbo.png);
-     background-size: contain  no-repeat;
-     scale:calc(100% / 1);
+     background-size: cover;
+     background-repeat: no-repeat;
      text-align: center;
 }
 
-body{
-     max-width: 1400px;
+body {
+     max-width: 1200px;
 }
 
-main{
-     width: 75%;
-}
-
-header> section{
+header>section {
      padding: 5%;
      width: 75%;
 }
 
-main> div> picture> img{
+main>div>picture>img {
      width: 500px;
 }
 
-.container-revers{
+.container-item{
+     padding: 8% 12.5%;
+}
+.container-reverse {
      flex-direction: row-reverse;
+     background-color: var(--item-bg);
+     padding: 8% 12.5%;
 }
 
-diV> section{ 
+diV>section {
      padding: 4%;
+}
+
+.container-centred {
+     text-align: center;
+     align-items: center;
+     background-color: var(--item-bg);
+     padding: 0 12.5%;
+}
+.svg{
+    height:200px;
+    position: relative;
+    top: 30px;
+}
+
+.svg-reverse{
+     transform: rotate(180DEG);
 }
