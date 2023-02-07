@@ -1,11 +1,14 @@
 * {
      box-sizing: border-box;
-     margin: 0 auto ;
+     margin: 0 auto;
      padding: 0;
      border: px solid black;
      font-family: 'Roboto', sans-serif;
 }
 
+body {
+     max-width: 1200px;
+}
 
 :root {
      --nav-bg: #255ee9;
@@ -17,54 +20,10 @@
      --item-bg: #f6f6f6;
 }
 
-.d-flex {
-     display: flex;
-     flex-flow: row nowrap;
-     flex-grow: 2;
-}
 
 nav {
      background-color: var(--nav-bg);
      padding: 2%;
-}
-
-h1{
-     color: var(--head-text);
-     font-size: 2.5rem;
-     margin: 2%;
-     padding: 2%;
-}
-header> section> p{
-     color: var(--head-text);
-     width: 70%;
-}
-
-a{
-     color: white;
-     text-decoration: none;
-     padding: 12px;
-}
-
-.link-header{
-     margin: 30px;
-}
-
-.download,.open{
-     border-radius: 25px;
-     padding: 12px ;
-}
-
-.download{
-     background-color: var(--head-text);
-     color: black;
-}
-
-.open{
-     background-color: var(--button-ds-bg);
-}
-
-i{
-     padding: 4px;
 }
 
 header {
@@ -74,8 +33,59 @@ header {
      text-align: center;
 }
 
-body {
-     max-width: 1200px;
+h1 {
+     color: var(--head-text);
+     font-size: 2.8rem;
+     margin: 2%;
+     padding: 2%;
+}
+
+h2 {
+     font-size: 2.4rem;
+     margin: 2.3%;
+}
+
+header>section>p {
+     color: var(--head-text);
+     width: 70%;
+}
+
+header a{
+     color: white;
+     text-decoration: none;
+     padding: 12px;
+}
+
+i {
+     padding: 4px;
+}
+
+.d-flex {
+     display: flex;
+     flex-flow: row nowrap;
+     flex-grow: 2;
+}
+
+.link-header {
+     margin: 30px;
+}
+
+.download,
+.open,
+.sing-in {
+     border-radius: 25px;
+     padding: 12px;
+}
+
+.download,
+.sing-in {
+     background-color: var(--head-text);
+     color: black;
+}
+
+.open {
+     background-color: var(--button-ds-bg);
+     margin-left: 1%;
 }
 
 header>section {
@@ -87,9 +97,10 @@ main>div>picture>img {
      width: 500px;
 }
 
-.container-item{
+.container-item {
      padding: 8% 12.5%;
 }
+
 .container-reverse {
      flex-direction: row-reverse;
      background-color: var(--item-bg);
@@ -106,12 +117,42 @@ diV>section {
      background-color: var(--item-bg);
      padding: 0 12.5%;
 }
-.svg{
-    height:200px;
-    position: relative;
-    top: 30px;
+
+.description {
+     margin: 4% 4% 0 0;
+     line-height: 25px;
 }
 
-.svg-reverse{
+.svg {
+     height: 200px;
+     position: relative;
+     top: 30px;
+}
+
+.svg-reverse {
      transform: rotate(180DEG);
+}
+.start{
+     text-align: center;
+     margin-top: 5%;
+     padding: 3%;
+     width: 50%;
+     font-size: 1.5rem;
+     background-image: url(../img/stars.svg);
+     background-size: contain;
+      background-repeat: no-repeat;
+}
+
+.download-viola{
+     padding: 1.3%;
+     margin: 10% auto;
+     background-color: var(--mac-down-bg);
+     width: 25%;
+     text-align: center;
+     border-radius: 25px;
+}
+.dwn-mac{
+     color: var(--item-bg);
+     text-decoration: none;
+     font-size: 1.4rem;
 }
