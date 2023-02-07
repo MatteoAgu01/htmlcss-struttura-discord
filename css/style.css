@@ -185,6 +185,7 @@ footer{
 }
 
 .viola-2{
+     text-decoration: none;
      padding: 1%;
      margin: 4% auto;
      background-color: var(--mac-down-bg);
