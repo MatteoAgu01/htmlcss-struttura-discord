@@ -15,13 +15,14 @@
      --h-footer: #7289da;
      --item-bg: #f6f6f6;
 }
+
 .max{
      max-width: 1200px;
 }
 
 nav {
      background-color: var(--nav-bg);
-     padding: 2%;
+     padding: 2% 0;
 }
 
 header {
@@ -46,6 +47,7 @@ h2 {
 header>section>p {
      color: var(--head-text);
      width: 70%;
+     line-height: 1.8rem;
 }
 
 header a{
@@ -94,6 +96,7 @@ header>section {
 
 main>div>picture>img {
      width: 500px;
+
 }
 
 .container-item {
@@ -119,7 +122,7 @@ diV>section {
 
 .description {
      margin: 4% 4% 0 0;
-     line-height: 25px;
+     line-height: 1.8rem;
 }
 
 .svg {
