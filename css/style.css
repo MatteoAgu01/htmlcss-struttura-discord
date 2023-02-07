@@ -145,7 +145,7 @@ diV>section {
 
 .download-viola{
      padding: 1.3%;
-     margin: 10% auto;
+     margin: 6% auto;
      background-color: var(--mac-down-bg);
      width: 25%;
      text-align: center;
@@ -155,4 +155,50 @@ diV>section {
      color: var(--item-bg);
      text-decoration: none;
      font-size: 1.4rem;
+}
+
+li{
+     list-style-type: none;
+}
+
+footer{
+     background-color: var(--foot-bg);
+     height: 120%;
+}
+.contatti{
+     margin: 0;
+}
+
+.d-flex-foot{
+     padding: 5% 0% 0%;
+     display: flex;
+     flex-flow: row nowrap;
+
+}
+
+footer h3, h5{
+     color: var(--h-footer);
+}
+
+footer{
+     color: white;
+}
+
+.viola-2{
+     padding: 1%;
+     margin: 4% auto;
+     background-color: var(--mac-down-bg);
+     width: 15%;
+     text-align: center;
+     border-radius: 25px;
+}
+
+
+.fine{
+     width: 80%;
+     margin-top: 2%;
+     border-top:2px solid #7289da;
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: space-evenly;
 }
